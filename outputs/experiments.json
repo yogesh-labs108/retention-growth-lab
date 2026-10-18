@@ -1,0 +1,76 @@
+{
+  "rehabit_test": {
+    "design": {
+      "unit": "first post-lapse order per weekly or fortnightly user",
+      "success": "next order within 30 days",
+      "eligible_users": 59516,
+      "baseline_rate": 0.8338598024060757,
+      "simulated_true_lift": 0.03,
+      "users_per_arm_for_1pp": 21219,
+      "users_per_arm_for_2pp": 5170
+    },
+    "result": {
+      "n_control": 29782,
+      "n_treatment": 29734,
+      "rate_control": 0.8328856356188301,
+      "rate_treatment": 0.8651375529696643,
+      "abs_lift": 0.032251917350834214,
+      "rel_lift": 0.038723104315361606,
+      "ci_low": 0.026505017735355692,
+      "ci_high": 0.037998816966312736,
+      "p_value": 0.0,
+      "srm_p_value": 0.8440197665884266
+    }
+  },
+  "geo_lift": {
+    "data": "synthetic: 24 cities, 16 weeks, campaign in 4 cities from week 11",
+    "true_lift": 0.06,
+    "did_estimate": 0.04350144708976804,
+    "did_placebo_p_value": 0.0,
+    "did_placebo_95_range": [
+      -0.016880221736453767,
+      0.018361310055278718
+    ],
+    "synthetic_control_estimate": 0.0409132390211262,
+    "synthetic_control_pre_period_error": 0.003217737148051747,
+    "weekly": {
+      "treated": [
+        81002.3,
+        84253.8,
+        86476.0,
+        88508.9,
+        89865.6,
+        85911.9,
+        87593.9,
+        83718.1,
+        84018.7,
+        85227.6,
+        91436.0,
+        91833.7,
+        91474.0,
+        98461.4,
+        102198.4,
+        102409.5
+      ],
+      "synthetic_control": [
+        81245.9,
+        84070.0,
+        86657.4,
+        87944.3,
+        89618.8,
+        86615.5,
+        87701.8,
+        83584.9,
+        84176.5,
+        84982.4,
+        84555.3,
+        88167.6,
+        91366.8,
+        94451.2,
+        96189.3,
+        100371.8
+      ],
+      "campaign_starts_week": 11
+    }
+  }
+}

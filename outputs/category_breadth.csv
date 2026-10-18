@@ -1,0 +1,13 @@
+basket_size_group,early_breadth,users,later_lapse_rate
+1. Small baskets,1-3 departments,19995,0.2817847947168064
+1. Small baskets,4-6 departments,33746,0.27115302299533
+1. Small baskets,7-9 departments,14065,0.273887380896319
+1. Small baskets,10+ departments,931,0.2629103616207614
+2. Medium baskets,1-3 departments,1101,0.20186482459144214
+2. Medium baskets,4-6 departments,14718,0.22727713625741278
+2. Medium baskets,7-9 departments,36956,0.25147001158428467
+2. Medium baskets,10+ departments,15961,0.2536203388648449
+3. Large baskets,1-3 departments,117,0.18255959694377363
+3. Large baskets,4-6 departments,2542,0.19911717663224873
+3. Large baskets,7-9 departments,19767,0.2303340584373707
+3. Large baskets,10+ departments,46310,0.23826463520832916
